@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${roboto.className} ${comicNeue.className} antialiased w-screen h-screen overflow-x-hidden flex justify-center`}
       >
-        <main className="w-[1200px] h-full">{children}</main>
+        <main className="w-[800px] h-full">{children}</main>
       </body>
     </html>
   );
