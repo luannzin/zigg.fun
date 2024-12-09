@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} ${comicNeue.className} antialiased w-screen h-screen overflow-x-hidden flex justify-center`}
+        className={`${comicNeue.className} ${roboto.className} antialiased w-screen h-screen overflow-x-hidden flex justify-center font-roboto`}
       >
         <main className="w-[800px] h-full">{children}</main>
       </body>
